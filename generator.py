@@ -15,7 +15,7 @@ equivalent_notes = {'Bb': 'A#',
                     'Ab': 'G#'}
 
 
-def note_frequency(note, octave=0):
+def note_to_frequency(note, octave=0):
     try:
         note_idx = notes.index(note)
     except ValueError:
