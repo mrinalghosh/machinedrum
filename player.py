@@ -60,9 +60,6 @@ def main(win):
             pass
 
         # attempt to debounce and clear key for next loop
-
-        # # create note wav file and a thread to play note
-
         time.sleep(debounce_delay)
 
 
